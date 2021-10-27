@@ -1,0 +1,18 @@
+:root: {
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  overflow: hidden;
+}
