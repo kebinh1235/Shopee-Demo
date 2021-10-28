@@ -350,7 +350,6 @@
   padding: 10px;
   text-decoration: none;
   font-size: 1.4rem;
-  font-weight: bold;
   display: block;
   color: var(--primary-color);
 }
@@ -920,7 +919,7 @@
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
-  padding: 0 6px;
+  padding: 0 6px
 }
 /* Home filter */
 .home-filter{
