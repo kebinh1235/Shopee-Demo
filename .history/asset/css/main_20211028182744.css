@@ -238,9 +238,6 @@
   overflow-y: auto;
   max-height: 300px;
 }
-.header__navbar-noti-list::-webkit-scrollbar {
-  display: none;
-}
 .header__navbar-noti-list-item{
   padding: 8px 10px;
 }
@@ -392,7 +389,7 @@
 .header__sort-active .header__sort-link:after {
   content: '';
   position: absolute;
-  bottom: 1px;
+  bottom: 0;
   left: 0;
   width: 100%;
   height: 2px;
@@ -654,9 +651,6 @@
 .header-has-cart-list {
   overflow-y: auto;
   max-height: 300px;
-}
-.header-has-cart-list::-webkit-scrollbar {
-  display: none;
 }
 .header-has-cart-title{
   padding: 10px;

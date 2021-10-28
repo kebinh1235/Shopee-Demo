@@ -238,9 +238,6 @@
   overflow-y: auto;
   max-height: 300px;
 }
-.header__navbar-noti-list::-webkit-scrollbar {
-  display: none;
-}
 .header__navbar-noti-list-item{
   padding: 8px 10px;
 }
@@ -372,6 +369,14 @@
   color: var(--primary-color);
   font-weight: bold;
 }
+.header__sort-link:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--primary-color);
+}
 .header__sort-link{
   color: var(--text-color);
   font-size: 1.4rem;
@@ -388,15 +393,6 @@
   left: 0;
   border-left: 1px solid #e5e5e5;
   height: 60%;
-}
-.header__sort-active .header__sort-link:after {
-  content: '';
-  position: absolute;
-  bottom: 1px;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background: var(--primary-color);
 }
 .header__sort-item:first-child .header__sort-link::before {
   display: none;
@@ -654,9 +650,6 @@
 .header-has-cart-list {
   overflow-y: auto;
   max-height: 300px;
-}
-.header-has-cart-list::-webkit-scrollbar {
-  display: none;
 }
 .header-has-cart-title{
   padding: 10px;

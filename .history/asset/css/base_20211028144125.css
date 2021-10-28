@@ -96,8 +96,8 @@ html {
 }
 /*Pagination*/
 .pagination{
-  /* display: none; */
- display:flex;
+  display: none;
+ /* display:flex; */
  justify-content: center;
  align-items: center;
 }
